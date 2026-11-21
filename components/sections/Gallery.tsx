@@ -7,10 +7,10 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 // Local road videos (served from /public/video)
 const roadVideos: string[] = [
-  "/video/video12.mp4",
+  "/video/Adobevideo12.mp4",
   "/video/video22.mp4",
-  "/video/video202.mp4",
-  "/video/video234.mp4",
+  "/video/Adobevideo202.mp4",
+  "/video/Adobevideo234.mp4",
 ];
 
 // Videos visible at once: mobile 1, tablet 2, desktop 4
