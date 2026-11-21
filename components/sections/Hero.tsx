@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { Play } from "lucide-react";
 
 // ---------------------------------------------------------------------------
 // CONFIG
@@ -66,26 +65,6 @@ export default function Hero() {
             stories through creativity, strategy, and performance-driven
             marketing.
           </p>
-
-          {/* CTAs */}
-          <div className="mt-10 flex flex-wrap items-center justify-start gap-6">
-            <a
-              href="#reel"
-              className="group inline-flex items-center gap-3 text-sm font-semibold text-cream-50"
-            >
-              <span className="flex h-10 w-10 items-center justify-center rounded-full border border-cream-50/30 transition-colors group-hover:border-ember-400 group-hover:text-ember-400">
-                <Play className="h-3.5 w-3.5 fill-current" />
-              </span>
-              Watch behind the scenes
-            </a>
-
-            <a
-              href="#services"
-              className="inline-flex items-center rounded-full bg-ember-400 px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-asphalt-950 transition-all hover:scale-[1.03] hover:bg-ember-300"
-            >
-              Explore Services
-            </a>
-          </div>
         </div>
       </div>
     </section>

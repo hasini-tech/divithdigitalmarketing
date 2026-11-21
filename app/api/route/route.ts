@@ -7,7 +7,7 @@ const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 const GROQ_MODEL = "openai/gpt-oss-120b";
 
 const BRAND_PHONE = "96264 11111";
-const BRAND_EMAIL = "hello@divithdigitalmarketing.com";
+const BRAND_EMAIL = "divithdigitalmarketing22@gmail.com";
 const BRAND_ADDRESS = "58 Balaji Nagar, Vallam, Thanjavur";
 
 const CONTACT_REPLY = `You can contact the Divith Digital Marketing team in any of these ways:

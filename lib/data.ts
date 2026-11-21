@@ -288,12 +288,11 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
+// ✅ Updated brands
 export const brands: Brand[] = [
-  { id: "br1", name: "Logo", logo: "/images/logo.png" },
-  { id: "br2", name: "Logo 2", logo: "/images/logo2.png" },
-  { id: "br3", name: "Logo 3", logo: "/images/logo3.png" },
-  { id: "br4", name: "Logo 4", logo: "/images/logo4.png" },
-  { id: "br5", name: "Tech V Logo", logo: "/images/tech-v-logo.png" },
+  { id: "br1", name: "Bomba Sweet", logo: "/images/bombasweet.png" },
+  { id: "br2", name: "Cake Town", logo: "/images/caketown.jpeg" },
+  { id: "br3", name: "Kamachi", logo: "/images/kamachi.jpeg" },
 ];
 
 export const youtubeStats = {
