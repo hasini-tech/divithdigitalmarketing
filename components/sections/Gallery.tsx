@@ -10,7 +10,6 @@ const roadVideos: string[] = [
   "/video/video12.mp4",
   "/video/video22.mp4",
   "/video/video202.mp4",
-  "/video/video223.mp4",
   "/video/video234.mp4",
 ];
 

@@ -6,11 +6,6 @@ import { Mail, MapPin, Phone, Send, CheckCircle2, Instagram, Youtube, Twitter } 
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 
-const socials = [
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-];
 
 export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
@@ -195,21 +190,6 @@ export default function Contact() {
                     58 Balaji Nagar, Vallam, Thanjavur
                   </p>
                 </div>
-              </div>
-
-              <div className="mt-8 flex gap-3">
-                {socials.map(({ icon: Icon, href, label }) => (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    className="flex h-11 w-11 items-center justify-center rounded-full border border-steel-500/20 text-steel-500 transition hover:border-ember-500 hover:text-ember-500 dark:text-steel-300"
-                  >
-                    <Icon size={19} />
-                  </a>
-                ))}
               </div>
             </div>
           </motion.div>
